@@ -25,11 +25,11 @@ This part was done **only for styling purposes** and is independent from the int
 
 **Before (Original Wikipedia):**
 
-![Wikipedia before ricing](capturas/wikipedia_normal.png)
+![Wikipedia before ricing](capturas/Wikipedia_normal.png)
 
 **After (Wikipedia with Matrix-style CSS):**
 
-![Wikipedia after ricing](capturas/wikipedia_matrix.png)
+![Wikipedia after ricing](capturas/Wikipedia_matrix.png)
 
 
 
