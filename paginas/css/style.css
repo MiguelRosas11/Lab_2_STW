@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+body {
+    font-family: Consolas, monospace;
+    text-align: center;
+     
+}
+.img-frame {
+  text-align: center;
+}
+
+.content {
+  max-width: 600px;     
+  margin: 0 auto;       
+  padding: 20px;        
+}
+
+
+/* Pantalla de inicio*/
+
+body.screen_inicio   { 
+    background: #1b4050; 
+    color: #148181;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    
+}
+body.screen_inicio img {
+  border: 2px solid #0ec6db;
+}
+
+
+/* Pantallas de elección*/
+
+body.screen_eleccion { 
+    background: #2a2d16; 
+    color: #7d850a;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    
+ }
+body.screen_eleccion img {
+  border: 2px solid #add042;
+}
+
+
+
+/* Pantallas finales*/
+
+body.screen_final    { 
+    background: #290404; 
+    color: #8a0b0b;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+body.screen_final img {
+  border: 2px solid #a11e1e;
+}
+
+
+/* botones*/
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;             
+  margin-top: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid #0ec6db;
+  color: inherit;
+  text-decoration: none; 
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* animación de los botones*/
+.button:hover {
+  transform: scale(1.08);
+  background-color: rgba(14, 198, 219, 0.15);
+}
+
+
+/* color diferente de cada botón según la pantalla*/
+body.screen_eleccion .button {
+  border-color: #add042;
+}
+
+body.screen_final .button {
+  border-color: #a11e1e;
+}
+
+body.screen_inicio .button {
+  border-color: #1e96a1;
+}

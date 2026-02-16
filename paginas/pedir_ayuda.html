@@ -2,11 +2,15 @@
 <html>  
 
 <head>
+    <meta charset="UTF-8">
     <title>pedir_ayuda</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class = "screen_eleccion">
 
+<div class = "content">
 
 
 <p>
@@ -16,21 +20,15 @@
    Ves <strong>Aparecen dos elecciones.</strong>
 </p>
 
-
+<div>
 
 <img src="http://localhost/adventure/assets/img/pedir_ayuda.png" alt="Archivo perdido" width="400">
 
-<nav>
-    <p>
-        Cerrar la historia -> 
-        <a href="http://localhost/adventure/final_neutro.html">final_neutro.html</a>
-    </p>
+<div class = "actions">
+    <a href="http://localhost/adventure/final_neutro.html" class = "button">final neutro</a>
 
-    <p>
-        Intentar algo arriesgado -> 
-        <a href="http://localhost/adventure/atajo_riesgoso.html">atajo_riesgoso.html</a>
-    </p>
-</nav>
+    <a href="http://localhost/adventure/atajo_riesgoso.html" class = "button">atajo riesgoso</a>
+</div>
 
 <footer>
     <p>Laboratorio de Tecnologías Web</p>
