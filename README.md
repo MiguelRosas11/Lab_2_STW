@@ -138,4 +138,4 @@ To view the project using Nginx, follow these steps:
 ## Video
 
 Video demonstration:  
-https://youtu.be/VSkZIADQQ5A
+[https://youtu.be/VSkZIADQQ5A](https://youtu.be/JLXzVRZxpug)
